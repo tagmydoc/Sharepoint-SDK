@@ -1,0 +1,21 @@
+{
+	"name": "tagmydoc/sharepoint-sdk-php",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"TagMyDoc\\SharePoint\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"authors": [
+		{
+			"name": "Alexandre Demers"
+		}
+	],
+	"require": {
+		"sammyjo20/saloon": "^2.0",
+		"microsoft/microsoft-graph-core": "^2.0.0"
+	}
+}
