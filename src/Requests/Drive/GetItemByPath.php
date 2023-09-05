@@ -4,7 +4,7 @@ namespace TagMyDoc\SharePoint\Requests\Drive;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
-use Str;
+use Illuminate\Support\Str;
 
 class GetItemByPath extends Request
 {

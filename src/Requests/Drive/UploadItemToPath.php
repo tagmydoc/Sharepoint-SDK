@@ -5,7 +5,7 @@ namespace TagMyDoc\SharePoint\Requests\Drive;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Traits\Body\HasBody;
-use Str;
+use Illuminate\Support\Str;
 
 class UploadItemToPath extends Request implements \Saloon\Contracts\Body\HasBody
 {
